@@ -1,5 +1,3 @@
-import { Api } from "../../components/base/api";
-
 export interface IProduct{
     id: string;
     description: string;
