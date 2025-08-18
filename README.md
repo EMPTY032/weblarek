@@ -178,7 +178,7 @@ events: IEvents // экземпляр класса EventEmitter для иниз�
 ```
 items: TBascketItem[]
 order: IOrder
-formErrors
+formErrors: FormErrors
 events: IEvents // экземпляр класса EventEmitter для инизицализации событий при изменении
 ```
 
