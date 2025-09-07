@@ -1,6 +1,6 @@
-import { Api, ApiListResponse, ApiPostMethods } from '../components/base/api';
-import { IEvents } from '../components/base/events';
-import { IOrder, IProduct, IWebApi, OrderResult } from './webApi';
+import { Api, ApiListResponse, ApiPostMethods } from './base/api';
+import { IEvents } from './base/events';
+import { IOrder, IProduct, IWebApi, OrderResult } from '../types/types';
 
 export class WebLarekApi implements IWebApi {
 	API: Api;
